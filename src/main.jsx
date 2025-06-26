@@ -7,8 +7,11 @@ import NotFound from './Components/NotFound.jsx'
 
 const router = createBrowserRouter([
   {path: "/*", element: <App/>},
-  // {path: "/*", element: <NotFound/>},
-])
+  {path: "/*", element: <NotFound/>},
+],
+{
+    basename: "/Pixabay-Images-Gallery", // 👈 Add this line
+  })
 
 
 createRoot(document.getElementById('root')).render(
