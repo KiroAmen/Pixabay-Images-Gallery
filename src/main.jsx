@@ -6,9 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFound from './Components/NotFound.jsx'
 
 const router = createBrowserRouter([
-  {path: "/Pixabay-Images-Gallery/", element: <App/>},
-  {path: "/Pixabay-Images-Gallery/*", element: <NotFound/>},
-  {path: "/"}
+  {path: "/", element: <App/>},
+  {path: "/*", element: <NotFound/>},
 ])
 
 
