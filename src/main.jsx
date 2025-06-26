@@ -5,6 +5,9 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFound from './Components/NotFound.jsx'
 
+const router = createBrowserRouter([
+  {path: "/", element: <App/>},
+])
 
 
 createRoot(document.getElementById('root')).render(
