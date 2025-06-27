@@ -9,8 +9,6 @@ export default function CardsList() {
   const [isLoading, setisLoading] = useState(false);
   const [term, setTerm] = useState("")
 
-    console.log(term);
-
 
   useEffect(() => {
     const getImages = async () => {
