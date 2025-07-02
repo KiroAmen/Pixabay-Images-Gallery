@@ -34,14 +34,14 @@ export default function CardsList() {
       <div className="md:w-10/12 my-3 md:mt-0 md:mx-auto mx-5">
         <Search searchText={(text) => setTerm(text)} />
       </div>
-      <div className="columns-1 sm:columns-2 md:columns-4 gap-1 space-y-4 pb-10">
+      <div className="columns-1 sm:columns-2 md:columns-5 gap-1 space-y-4 pb-10">
         {isLoading == true ? (
           // Loading
           <div className="mt-14 md:mt-32">
             <div className="flex flex-row gap-2 justify-center w-screen">
-              <div className="w-4 h-4 rounded-full bg-[#4d85b6] animate-bounce"></div>
-              <div className="w-4 h-4 rounded-full bg-[#254D70] animate-bounce [animation-delay:-.3s]"></div>
-              <div className="w-4 h-4 rounded-full bg-[#4d85b6] animate-bounce [animation-delay:-.5s]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#E60023] animate-bounce"></div>
+              <div className="w-4 h-4 rounded-full bg-[#831626] animate-bounce [animation-delay:-.3s]"></div>
+              <div className="w-4 h-4 rounded-full bg-[#E60023] animate-bounce [animation-delay:-.5s]"></div>
             </div>
           </div>
         ) : (
